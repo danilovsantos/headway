@@ -13,12 +13,9 @@ import java.util.Iterator;
 import java.util.Map;
 import java.util.stream.Stream;
 
-import org.springframework.context.annotation.ComponentScan;
-
 import br.com.headway.exame.model.Filial;
 import br.com.headway.exame.model.Movimentacao;
 import br.com.headway.exame.model.Periodo;
-
 
 
 /**
@@ -26,7 +23,6 @@ import br.com.headway.exame.model.Periodo;
  * @author Danilo Valente
  *
  */
-@ComponentScan
 public class MovimentacaoDaoImpl implements MovimentacaoDao{
 
 
