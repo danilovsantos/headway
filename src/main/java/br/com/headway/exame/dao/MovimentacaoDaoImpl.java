@@ -13,6 +13,8 @@ import java.util.Iterator;
 import java.util.Map;
 import java.util.stream.Stream;
 
+import org.springframework.context.annotation.ComponentScan;
+
 import br.com.headway.exame.model.Filial;
 import br.com.headway.exame.model.Movimentacao;
 import br.com.headway.exame.model.Periodo;
@@ -20,15 +22,16 @@ import br.com.headway.exame.model.Periodo;
 
 
 /**
- * Classe de acesso á fonte de dados de movimentações.
+ * Classe de acesso Ã¡ fonte de dados de movimentaÃ§Ãµes.
  * @author Danilo Valente
  *
  */
-public class MovimentacaoDao {
+@ComponentScan
+public class MovimentacaoDaoImpl implements MovimentacaoDao{
 
 
 	/**
-	 * Obtem arquivo local para testes unitários.
+	 * Obtem arquivo local para testes unitÃ¡rios.
 	 * @return
 	 */
 
@@ -129,7 +132,7 @@ public class MovimentacaoDao {
 
 	
 	/**
-	 * Obtem filial com maior faturamento no período.
+	 * Obtem filial com maior faturamento no perÃ­odo.
 	 * @param movimentacao
 	 * @return
 	 */
@@ -161,7 +164,7 @@ public class MovimentacaoDao {
 	
 	
 	/**
-	 * Obtem filial com menor faturamento no período.
+	 * Obtem filial com menor faturamento no perÃ­odo.
 	 * @param movimentacao
 	 * @return
 	 */
@@ -198,7 +201,7 @@ public class MovimentacaoDao {
 	
 	
 	/**
-	 * Obtem mês de maior faturamento no período.
+	 * Obtem mÃªs de maior faturamento no perÃ­odo.
 	 * @param movimentacao
 	 * @return
 	 */
