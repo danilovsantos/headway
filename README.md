@@ -1,7 +1,27 @@
 # headway
 Projeto criado para avaliação técnica profissional.
 
-Como instalar e executar o projeto:
+PROBLEMA:
+
+Consumir um arquivo contendo movimentação de vendas do primeiro trimestre de algumas filiais de uma empresa hipotética e exibir:
+
+- Filial que mais vendeu no período;
+- Filial que teve o maior crescimento;
+- Filial que teve a maior queda nas vendas;
+- Mês em que a empresa mais vendeu.
+
+SOLUÇÃO:
+
+-Criação de interface web para upload de arquivo csv e exibição dos resultados.
+
+ARQUITETURA:
+
+JAVA 8
+SPRING MVC
+JSP
+MAVEN
+
+INSTALAÇÃO E EXECUÇÃO:
 
 - Faça git clone do projeto.
 - Dentro da IDE selecione o menu File > Import > Existing Maven Projects.
